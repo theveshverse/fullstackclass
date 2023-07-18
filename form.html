@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CGC College Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CGC College Registration Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+          <option value="">Select Course</option>
+          <option value="btech">B.Tech</option>
+          <option value="mba">MBA</option>
+          <option value="bca">BCA</option>
+        </select>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
